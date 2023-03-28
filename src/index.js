@@ -47,6 +47,7 @@ function fetchRamen() {
                     const formImage = document.createElement("img")
                     formImage.src = newImageInput.value
                     ramenMenu.append(formImage)
+                    
 
                     formImage.addEventListener("click", function() {
                         console.log("New image has been clicked!")
